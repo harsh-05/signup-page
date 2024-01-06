@@ -1,0 +1,52 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(fonts/Norse-Bold.otf);
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.image-odin {
+    display: flex;
+    background-image: url(images/green-leaves-hailyWest.jpg);
+    
+    width: 35vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: Norse-Bold, sans-serif;
+}
+
+.details-and-form {
+    width: 65vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #fafafa;
+
+}
+
+.paragraph {
+    height: 33vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: end;
+    margin-left: 5%;
+}
+
+.form {
+    height: 33vh;
+}
+
+.signup {
+    height: 44vh;
+}
